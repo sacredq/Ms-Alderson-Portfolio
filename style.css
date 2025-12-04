@@ -1,0 +1,77 @@
+*{
+    padding: 0; margin: 0; box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+}
+
+.container{
+    width: 100%; height: 100vh; 
+    background-image: url(images/e3c237d899fe96161b1eaa69e195476d.jpg);
+    background-position: center; background-size: cover;
+
+}
+
+.Top_bar{
+    padding-top: 35px; align-items: center;
+    display: flex; flex-direction: row; justify-content: space-evenly;
+}
+
+.links ul li a{
+    color: #fff; text-decoration: none; font-size: 20px;
+    
+}
+
+.links ul li a:hover{
+    color: #f9004d;
+}
+
+.links ul li{
+    list-style-type: none; 
+}
+
+.links ul{
+    display: flex; padding: 0; margin: 0; gap: 30px;
+}
+
+.Logo{
+    font-size: 40px;
+}
+
+.Logo span{
+    color: #f9004d;
+}
+
+.buttons a{
+    color: white; text-decoration: none; 
+}
+
+.btn1{
+    margin-right: 15px; color: #fff; font-size: 18px;
+}
+
+.btn2{
+    background: black; padding: 9px 25px; outline: none; border: none;
+    border-radius: 6px; text-align: center; font-size: 18px;
+}
+
+.btn3{
+    margin-top: 20px;
+    background: white; color: black; text-align: center;
+    padding: 9px 25px; outline: none; border: none; border-radius: 6px;
+    font-weight: bold; cursor: pointer;
+}
+
+.center_text{
+    margin-top: 8%; max-width: 850px;
+    padding-left: 8%; padding-right: 8%;
+}
+
+.center_text h3{
+    font-size: 55px;
+}
+
+.center_text p{
+    margin-top: 10px; line-height: 25px; font-size: 18px;
+}
